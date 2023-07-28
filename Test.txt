@@ -1,0 +1,113 @@
+1) method overloading in java means where multipul methods have same method name but haveing different parameteres ;
+exmple:-
+class Yallu{
+   static void student(String name,)
+     {
+       this.name=name; 
+      system.out.println("student name is :"+name);
+    }
+     Static void student(String name,int age);
+      {
+      this(name);
+      this.age=age;
+      system.out.println("age is:"+age);
+
+        }
+    }
+
+   Class yalluRunner{
+    public static void main(String[] args) 
+   {
+    System.out.println("invoking in main method");
+    Yallu yallu=new Yallu(string name,int age);
+    string name="kumar";
+    int age=23;
+    system.out.println("name is:"+name);
+    system.out.println("age is:"+age);
+    }
+  }
+
+
+2)there are 3types of variables 
+  1.static variable;-->static variable are with name call static and it write inside calss and outside the body of the method
+  2.local variable;-->it declear with in the outside body of the method;
+  3.instance varible;-->it is same as static it declear in side body off class and  inside the body of method
+ example-->
+    calss Variable
+  {
+     String name;
+     String brother;
+     int age
+     static name="yallu";-->static variable
+     public static void main(String[] args)
+   {
+    string  brother="kumar";-->instance variable
+   }
+    age =23;-->local variable
+}                                                                                
+
+3)heap
+  1.heap is used to store the memory allocation in stack
+ 2.it store the adderss of memory
+ stack
+ 1.stack memory it contain the program in java
+ 2.it allocate the metod the program
+
+ 
+4)class Student{
+    String name;
+   String fathername;
+    int age;
+    student(string name){
+
+syatem.out.println(running in student);
+
+
+   class StudentRunner{
+
+pubnlic static void main(String[] args)
+{
+System.out.println("running in main mehod");
+Student student=new Student(String name,String fathername,int age);
+Student student1=new Student(String name,int age,String fathername);
+
+
+
+7) class Student{
+   String name;
+   String sbu;
+   int age;
+
+Student(){
+super();
+{
+System.out.prinln("runnin super key");
+ }
+this.()
+{
+system.out.println("student name");
+}
+this.(string name){
+this.name="name";
+System.out.println("student name");
+}
+this.(string name,stairng sib){
+this.(name);
+this.age=agel;
+system.out.println("sub");
+}
+this.(string name,strng sub,int age){
+this.(name,sub);
+this.age=age;
+system.out.println(age);
+}
+
+class StudentRunner{
+public static void mani(String[] agrs)
+{
+Student student=new Student(String name,String sub,int age);
+name="yallalinga";
+sub="java";
+age=23;
+system .out.println(student info :+name+sub+age) 
+  
