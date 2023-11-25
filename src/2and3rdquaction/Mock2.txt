@@ -1,0 +1,86 @@
+2)
+collection architucter is 
+     iterable-->collection
+                 / \
+                /   \
+              list   set->tree set
+              /\      /\
+             /  \hasset  linkedhasset
+            /    \
+   linked list  arraylist
+
+
+
+list
+1.	The list implementation allows us to add the same or duplicate elements.	
+2.	The insertion order is maintained by the List.	
+3.	List allows us to add any number of null values.	
+4.	The List implementation classes are LinkedList and ArrayList.	
+5.	We can get the element of a specified index from the list using the get() method.	
+6.	It is used when we want to frequently access the elements by using the index.	
+7.	The method of List interface listiterator() is used to iterate the List elements.	
+
+Set
+   The set implementation doesn't allow us to add the same or duplicate elements.
+   It doesn't maintain the insertion order of elements.
+   Set allows us to add at least one null value in it.
+   The Set implementation classes are TreeSet, HashSet and LinkedHashSet.
+   We cannot find the element from the Set based on the index because it doesn't provide any get method().
+   It is used when we want to design a collection of distinct elements.
+   The iterator is used when we need to iterate the Set elements.
+
+ArrayList                                                                                              
+    1.It does not maintain any 	                                               
+	   order of objects.                                             			                                                  
+    2.It allows only one null object.	
+linkeslist
+     1.linkedList internally uses a doubly linked list to store the elements.
+     2.LinkedList is better for manipulating data.
+     3.Linkedlist is faster then array list
+hasset
+    1.in hasset baketalgoretherm performance take place
+    2.it provide has code to the object 
+    3.if two object have same hascode then it internaly call equals method
+    4.if equal method get true  then it not add the value but get false it will add th value
+    5.it doesnot contane dublicate value
+		                                    
+
+LinkedHashSet
+       1.It maintains insertion order of objects	
+       2. it also allows only one null object.
+
+TreeSet
+    1.By-Default,it maintains ascending
+      order of objects. 
+    2.It does not allow any null objects.
+
+3) 1.interface is a medium to connect between two classes
+   2.buy using interface we can achive multipalInheritance
+   3.and also we achive complate abstraction
+   4.it contans abstract methodss
+   5.there are two types of interface 
+               1)marker interface and 2)functional interface
+          *marker interface wehere it does not contane any method 
+          *functional interface it contane one abstract method
+
+
+
+                        Abstract class	                                                                           Interface
+   1. Abstract class can have abstract and non-abstract methods.	                                  Interface can have only abstract methods. 
+   
+   2. Abstract class doesn't support multiple inheritance.	                                          Interface supports multiple inheritance.
+   
+   3. Abstract class can have final, non-final, static and non-static variables.	                  Interface has only static and final variables.
+   
+   4. Abstract class can provide the implementation of interface.	                               Interface can't provide the implementation of abstract class.
+   
+   5. The abstract keyword is used to declare abstract class.	                                      The interface keyword is used to declare interface.
+   
+   6. A  abstract class can have class members like private, protected, etc.	                   Interface are public by default.
+   
+   7. abstract class can be extended using keyword "extends".	                                 Interface can be implemented using keyword "implements".
+   
+   8.Example:                                                                                             Example:
+          public abstract class Shape{                                                                   public interface Drawable{
+          public abstract void draw();                                                                   void draw();
+          }
